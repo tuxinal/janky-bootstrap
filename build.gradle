@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'xyz.tuxinal'
+version 'v0.1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://maven.packwiz.infra.link/repository/release/'
+        name = 'packwiz'
+    }
+    maven {
+        url = uri("https://jitpack.io")
+    }
+}
+
+dependencies {
+    implementation 'link.infra.packwiz:packwiz-installer:v0.5.4'
+}
