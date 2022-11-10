@@ -12,8 +12,8 @@
   },
   "libraries": [
     {
-      "url": "i haven't published this to jitpack yet, you are here too soon",
-      "name": "xyz.tuxinal:janky-bootstrap:0.1.0"
+      "url": "https://jitpack.io/",
+      "name": "com.github.tuxinal:janky-bootstrap:0.1.0"
     },
     {
       "url": "https://maven.packwiz.infra.link/repository/release/",
