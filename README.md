@@ -8,6 +8,8 @@ Doesn't update the packwiz version and it might cause classpath conflicts due to
 
 ## Usage
 
+Note: you need to have fabric loader installed before you proceed. Fabric loader's version is also not updated.
+
 1. Copy [`template-version.json`](./template-version.json) and rename it to your own version ID (e.g. `my-packwiz-version.json`)
 2. Edit the file and supply your own configurations, namely `FABRIC_LOADER_VERSION` (in the format of it's ID when it's in your `.minecraft/versions` folder, e.g. `fabric-loader-0.14.10-1.19.2`) and `YOUR_PACK_URL`. make sure the id is correct
 3. Put your version file in a folder of the same name (i.e. `my-packwiz-version/my-packwiz-version.json`) and put the folder inside `.minecraft/versions`
