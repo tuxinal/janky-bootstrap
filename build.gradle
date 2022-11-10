@@ -20,3 +20,11 @@ repositories {
 dependencies {
     implementation 'link.infra.packwiz:packwiz-installer:v0.5.4'
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}
