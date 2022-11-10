@@ -1,4 +1,4 @@
-package xyz.tuxinal;
+package xyz.tuxinal.jankybootstrap;
 
 import link.infra.packwiz.installer.Main;
 

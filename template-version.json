@@ -1,0 +1,55 @@
+{
+  "id": "template-version",
+  "inheritsFrom": "FABRIC_LOADER_VERSION",
+  "type": "release",
+  "mainClass": "xyz.tuxinal.jankybootstrap.BootstrapMain",
+  "arguments": {
+    "game": [],
+    "jvm": [
+      "-DpackUrl=YOUR_PACK_URL",
+      "-Dentrypoint=net.fabricmc.loader.impl.launch.knot.KnotClient"
+    ]
+  },
+  "libraries": [
+    {
+      "url": "i haven't published this to jitpack yet, you are here too soon",
+      "name": "xyz.tuxinal:janky-bootstrap:0.1.0"
+    },
+    {
+      "url": "https://maven.packwiz.infra.link/repository/release/",
+      "name": "link.infra.packwiz:packwiz-installer:v0.5.4"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "commons-cli:commons-cli:1.5.0"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "com.squareup.okio:okio:3.1.0"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "com.squareup.okio:okio-jvm:3.1.0"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "com.squareup.okhttp3:okhttp:4.10.0"
+    },
+    {
+      "url": "https://jitpack.io/",
+      "name": "cc.ekblad:4koma:1.1.0"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "org.jetbrains.kotlin:kotlin-reflect:1.7.10"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/",
+      "name": "org.antlr:antlr4-runtime:4.11.1"
+    }
+  ]
+}
